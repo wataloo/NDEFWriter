@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_width="fill_parent" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/TextDescription"></TextView>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/TextInput" android:text="" android:gravity="top" android:lines="2"></EditText>
+
+<TextView android:text="@string/UrlDescription" android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_width="wrap_content"></TextView>
+<EditText android:text="http://" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="top" android:lines="3" android:id="@+id/UriInput"></EditText>
+<Button android:id="@+id/WriteButton" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/write_button"></Button>
+<TextView android:text="" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ResultText"></TextView>
+</LinearLayout>

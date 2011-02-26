@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, NdefWriter!</string>
+    <string name="app_name">NDEFWriter</string>
+    <string name="write_button">Write To Card</string>
+    <string name="TextDescription">Input Title:</string>
+    <string name="UrlDescription">Input URL:</string>
+    <string name="ndef_push_button">NDEF Push</string>
+</resources>
