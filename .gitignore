@@ -1,0 +1,8 @@
+gen
+bin
+build.xml
+local.properties
+.classpath
+.settings
+.project
+.fbprefs
